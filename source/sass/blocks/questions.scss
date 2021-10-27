@@ -153,6 +153,7 @@
     border: none;
     box-sizing: border-box;
     color: $white;
+    border-radius: 0px;
 
     @media (max-width: 767px) {
         margin-bottom: 30px;
@@ -242,6 +243,7 @@
     line-height: 16px;
     color: $white;
     opacity: 0.8;
+    cursor: pointer;
 
     &::before {
         position: absolute;
@@ -266,6 +268,7 @@
     background-image: url("../img/check_icon.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    cursor: pointer;
 }
 
 .questions__agreement input:focus+label::before {

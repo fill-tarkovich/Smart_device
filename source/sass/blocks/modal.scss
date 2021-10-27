@@ -58,6 +58,8 @@
     border: none;
     box-sizing: border-box;
     color: $white;
+    border-radius: 0px;
+    cursor: pointer;
 
     &:hover {
         border: 1px solid $white;
@@ -84,17 +86,17 @@
     resize: none;
 }
 
-.modal__agreement {
+.modal__checkbox {
     position: relative;
     display: flex;
 }
 
-.modal__agreement input {
+.modal__checkbox input {
     position: absolute;
     opacity: 0;
 }
 
-.modal__agreement label {
+.modal__checkbox label {
     position: relative;
     padding-left: 48px;
     padding-right: 30px;
@@ -103,6 +105,7 @@
     line-height: 16px;
     color: $white;
     opacity: 0.8;
+    cursor: pointer;
 
     &::before {
         position: absolute;
@@ -116,7 +119,7 @@
     }
 }
 
-.modal__agreement input:checked+label::after {
+.modal__checkbox input:checked+label::after {
     position: absolute;
     content: "";
     left: 4px;
@@ -129,7 +132,7 @@
     background-position: 50% 50%;
 }
 
-.modal__agreement input:focus+label::before {
+.modal__checkbox input:focus+label::before {
     outline: 1px solid black;
 }
 

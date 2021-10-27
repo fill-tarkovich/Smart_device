@@ -52,13 +52,15 @@
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
+    color: $white;
+    text-decoration: none;
     font-size: 25px;
     line-height: 29px;
     margin: 0;
 }
 
 .header__logo p {
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
