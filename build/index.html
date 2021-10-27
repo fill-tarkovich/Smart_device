@@ -19,13 +19,10 @@
   <header class="header">
     <div class="header__wrapper">
       <a class="header__logo" href="#">
-        <svg width="52" height="52" fill="#00B2FF">
-          <use xlink:href="img/sprite.svg#logo"></use>
-        </svg>
-        <div class="header__logo-text">
-          <h2>Smart Device</h2>
-          <p>Умные технологии</p>
-        </div>
+        <picture>
+          <source media="(max-width: 767px)" srcset="img/logo_mobile.svg">
+          <img src="img/logo_desktop.svg" width="202" height="52" alt="Smart Device. Логотип сайта">
+        </picture>
       </a>
       <div class="header-contacts">
         <a class="header-contacts__link header-contacts__link--mail" href="mailto:info@sd.ru">
@@ -188,7 +185,7 @@
             <use xlink:href="img/sprite.svg#logo"></use>
           </svg>
           <div class="footer__logo-text">
-            <h2>Smart Device</h2>
+            <h2>Service Device</h2>
             <p>умные технологии</p>
           </div>
         </a>
