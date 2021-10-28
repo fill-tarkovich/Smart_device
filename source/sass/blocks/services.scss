@@ -1,11 +1,11 @@
 .services {
     background-color: $background;
+    padding: 0 15px;
 }
 
 .services__wrapper {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
-    padding: 0 15px;
     padding-top: 93px;
     box-sizing: border-box;
 
@@ -63,8 +63,10 @@
     position: relative;
     box-sizing: border-box;
     margin-bottom: 30px;
+    width: 370px;
 
     &:not(:nth-child(3n)) {
+
         margin-right: 30px;
 
         @media (max-width: 1023px) {
